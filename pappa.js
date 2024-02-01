@@ -16,3 +16,10 @@ async function getData() {
 let btn = document.querySelector("button");
 btn.addEventListener("click", () => getData());
 
+
+
+var favoriteDog = prompt("Din favoritt hund?");
+let favDog = document.getElementById("dogName");
+
+favDog.textContent += favoriteDog;
+
